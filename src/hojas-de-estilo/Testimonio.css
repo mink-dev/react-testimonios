@@ -1,0 +1,124 @@
+@media (min-width:360px){
+    .contenedor-testimonio{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .contenedor-texto-testimonio{
+        padding: 20px;
+    }
+
+    .imagen-testimonio{
+        height: 100%;
+        width: 300px;
+    }
+
+    .texto-testimonio {
+        font-size: 0.98rem;
+        text-align: justify;
+    }
+
+    .nombre-testimonio{
+        font-size: 0.88rem;
+   }
+   
+   .cargo-testimonio{
+       font-size: 0.88rem;
+   }
+    
+}
+
+
+
+@media (min-width:750px){
+    .contenedor-testimonio{
+        display: block;
+        flex-direction: row; 
+        width: 730px;
+        height: 470px;
+   }
+
+    .contenedor-texto-testimonio{
+        padding: 80px;
+    }
+
+    .imagen-testimonio{
+        height: 60%;
+        width: 300px;
+        margin-left: 27px;
+    }
+
+    .texto-testimonio {
+        font-size: 0.99rem;
+        text-align: justify;
+    }
+
+    .nombre-testimonio{
+        font-size: 1.1rem;
+   }
+   
+   .cargo-testimonio{
+       font-size: 1.1rem;
+   }
+}
+
+@media (min-width:1200px){
+    .contenedor-testimonio{ 
+        display: block;
+        flex-direction: row; 
+        width: 1170px;
+        height: 368px;
+       
+    }
+    .contenedor-texto-testimonio{
+        padding: 40px;
+    }
+
+    .imagen-testimonio{
+        height: 100%;
+        width: 400px;
+    }
+
+    .texto-testimonio {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .nombre-testimonio{
+         font-size: 1.3rem;
+    }
+    
+    .cargo-testimonio{
+        font-size: 1.3rem;
+    }
+    
+}
+
+
+
+.contenedor-testimonio{
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+
+
+
+.contenedor-texto-testimonio{
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+}
+
+.nombre-testimonio{
+    font-size: 1.3rem;
+}
+
+.cargo-testimonio{
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
